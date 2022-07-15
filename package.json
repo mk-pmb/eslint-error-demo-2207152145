@@ -1,0 +1,35 @@
+{ "name": "eslint-error-demo-2207152145",
+  "version": "0.0.1",
+  "description": "Debugging eslint-plugin-node",
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/eslint-error-demo-2207152145/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/eslint-error-demo-2207152145.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/eslint-error-demo-2207152145/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "main": "meh.mjs",
+  "scripts": { "test": "eslint --ext .mjs meh.mjs && echo Lint ok.; date +%T" },
+  "eslintConfig": {
+    "extends": [
+      "eslint-config-airbnb-base"
+    ]
+  },
+
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
